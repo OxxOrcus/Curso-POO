@@ -16,6 +16,54 @@ public class Animal {
         this.peso = peso;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getEstadoDeEspirito() {
+        return estadoDeEspirito;
+    }
+
+    public void setEstadoDeEspirito(String estadoDeEspirito) {
+        this.estadoDeEspirito = estadoDeEspirito;
+    }
+
+    public int getTamanhoDoRabo() {
+        return tamanhoDoRabo;
+    }
+
+    public void setTamanhoDoRabo(int tamanhoDoRabo) {
+        this.tamanhoDoRabo = tamanhoDoRabo;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
     protected void comer(){
 
     }
